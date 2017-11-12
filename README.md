@@ -1,6 +1,8 @@
 关于AOP详解可参考
 [Android中AOP实践之一概念篇](http://blog.csdn.net/anthony_3/article/details/78470499)
+
 [Android中AOP实践之二场景篇](http://blog.csdn.net/anthony_3/article/details/78492497)
+
 [Android中AOP实践之三AspectJ解析篇](http://blog.csdn.net/anthony_3/article/details/78509812)
 
 在项目应用中可以分为通用场景和业务场景两种。其中通用场景我用到了**日志输出、方法计时、异步操作、异常拦截、动态权限**等，业务场景用到了**登录验证和单次点击**。整个AOP编程是基于aspect实现的，至于实现原理我想放到下一篇再讲。
