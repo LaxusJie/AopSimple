@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "登录测试", Toast.LENGTH_SHORT).show();
             }
         });
-//        async();
-//        safe();
+        async();
+        safe();
         checkPhoneState();
     }
 
